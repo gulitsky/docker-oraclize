@@ -8,6 +8,6 @@ Docker image for [Oraclize Ethereum Bridge](https://github.com/oraclize/ethereum
 
 ```` sh
 docker run --name oraclize \
-    -d -p 8545:8545 \
+    -d --network host \
     gulitsky/oraclize -a 49
 ````
